@@ -2,7 +2,27 @@
 Lab 1: 
  Number Representation:
  1.1)  0b10001110
-       2^7 +0+0+0+2^3+2^2+2^0+0= 128+8+4+2= **142** (Binary to Decimal)
+       2^7 +0+0+0+2^3+2^2+2^0+0= 128+8+4+2= 142 (Binary to Decimal)
        
+       0b10001110
+       8+14 = 8E (Binary to Hexadecimal)
+       
+       
+       0xC3BA
+       1100 0011 1011 1010 (Hexadecimal to Binary)
+       
+       0xC3BA
+         Placeholders: C= 16^3 3=16^2 B=16^1 A=16^0
+         Values: C=12 3=3 B=11 A=10
+         (10*16^0) + (11*16^1) + (3*16^2) + (12*16^3) = 50,106 (Hexadecimal to Decimal)
+         
+         
+        81
+         111 001 (Decimal to Binary)
+         
+        81
+         81/16=5 remainder 1
+         5/16=0 remainder 5
+          =51 (Decimal to Hexadecimal)
        
        
