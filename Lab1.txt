@@ -24,5 +24,18 @@ Lab 1:
          81/16=5 remainder 1
          5/16=0 remainder 5
           =51 (Decimal to Hexadecimal)
+          
+          
+        0b100100100
+           2^8+0+0+2^5+0+0+2^2+0+0= 256+32+4 = 292 (Binary to Decimal)
+          
+        0b100100100   
+           1 0010 0100 (Binary to Hexadecimal)       ?????????????
+           
+           
+         0xBCA1
+         
+           
+         
        
        
