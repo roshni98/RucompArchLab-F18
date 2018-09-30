@@ -34,6 +34,27 @@ Lab 1:
            
            
          0xBCA1
+            1011 1100 1010 0001 (Hexadecimal to Binary)
+            
+         OxBCA1
+            Placeholders: B=16^3  C=16^2 A=16^1  1=16^0
+            Values: B=11 C=12 A=10 1=1
+            (1*16^0)+(10*16^1)+(12*16^2)+(11*16^3)= 1+160+3072+45056= 48289 (Hexadecimal to Decimal)
+            
+         0
+          0 (Decimal to Binary)
+         0
+          0000 (Decimal to Hexadecimal)
+          
+         42
+           101010 (Decimal to Binary)
+         
+         42
+            42/16 =2 remainder 10
+            2/16 =0 remainder 2
+            Read from bottom to top
+            2 --> 10
+            = 2A  (Decimal to Hexadecimal)
          
            
          
