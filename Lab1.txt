@@ -56,6 +56,8 @@ Lab 1:
             2 --> 10
             = 2A  (Decimal to Hexadecimal)
          
+         0xBAC4
+              1011 1010 1100 0100 (Hexadecimal to Binary)
            
          
        
