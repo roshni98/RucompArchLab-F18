@@ -58,7 +58,11 @@ Lab 1:
          
          0xBAC4
               1011 1010 1100 0100 (Hexadecimal to Binary)
-           
+              
+         0xBAC4
+             Placeholders: B=16^3 A=16^2 C=16^1 4=16^0
+             Values: B=11 A=10 C=12 4=4
+             (4*16^0)+(12*16^1)+(10*16^2)+(11*16^3)= 47809
          
        
        
