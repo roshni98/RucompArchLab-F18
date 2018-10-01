@@ -118,8 +118,12 @@ Unsigned
        4)
         There is no largest integer because an encoding scheme that uses 8 bits could have different ranges of offsets. Such            as going to 1 to 256 instead of 0 to 255 
 
-        5) ???????????????????????
-        6) ????????????????
+        5) If there is an x and its complement, x’ and you take the sum of both the result will always be 1111… and this works 			for any n digit bit  for example, if x=1010 and x'=0101then x+x’=1111
+        6) 
+		Decimal is used mainly for human calculation. Decimals can be used easier for mental math or calculators  and 				since we have 10 fingers we started off with decimals in the beginning. 
+		Binary numbers are used a lot of the time for computers. It is easier to design a circuit with binary signals 				and its easier for machines to read with than bigger radix signals.
+		Hexadecimals are good to display binary digits. As one hex corresponds to 4 binary digit then it makes it 			easier to do computing with bigger numbers.
+
 
 3.1)
      For 0,,e we only need 2 bits as there are 3 stages
