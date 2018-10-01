@@ -3,6 +3,10 @@ Lab 1:
  Number Representation:
  1.1)
     a)   
+A = 10	D = 13
+B = 11  E = 14
+C = 12	F = 15
+
        0b10001110
        2^7 +0+0+0+2^3+2^2+2^0+0= 128+8+4+2= 142 (Binary to Decimal)
        
@@ -32,7 +36,8 @@ Lab 1:
            2^8+0+0+2^5+0+0+2^2+0+0= 256+32+4 = 292 (Binary to Decimal)
           
         0b100100100   
-           1 0010 0100 (Binary to Hexadecimal)       ?????????????
+           1 0010 0100 (Binary to Hexadecimal)  = 124 ?????????????
+
            
            
          0xBCA1
@@ -82,7 +87,43 @@ Lab 1:
          
          
      c) 
-        2Ki= 
+        2Ki= 2^11
+       512Pi= 2^59
+       256Ki= 2^18
+       32Gi= 2^35
+       64Mi=2^26
+       8Ei= 2^63
          
-       
-       
+
+2.2)  
+
+
+Unsigned
+          Largest = 11111111 = 255 --->  Largest + 1 = 11111111 + 1 = 00000000 = 0
+	Two’s complement
+        The largest two’s complement is  10000000  in which the 8th bit=-128 but to get the positive value of this we flip the         bits (one's complement) 01111111=127 which is the same as doing the largest+1 
+       Largest: 127      Largest+1: 128
+       2) 
+            Unsigned
+          0 = 0000 0000, 3 = 0000 0011    -3  can’t be represented because as an unsigned integer because that ranges from 0              to 255, and there are no negatives
+         Two’s Complement
+          0 = 0000 0000, 3 = 0000 0011, -3 = 0000 0011 → flipped + 1 → 1111 1101
+
+       3)
+        Unsigned
+           42 = 00101010,   -42 can’t be represented as an unsigned integer because the range of an unsigned integer is from 0              to 255, there are no negatives
+      Two’s Complement
+              42 = 00101010, -42 = 00101010 → flipped + 1 → 11010110
+
+       4)
+        There is no largest integer because an encoding scheme that uses 8 bits could have different ranges of offsets. Such            as going to 1 to 256 instead of 0 to 255 
+
+        5) ???????????????????????
+        6) ????????????????
+
+3.1)
+     For 0,,e we only need 2 bits as there are 3 stages
+   1) 1 TiB= 2^40 bits 
+   2)  2 TiB is doubled 1 TiB =  2.199*10^12
+       To address every byte of memory it has to be 41 bits long to hold that 2TiB of memory
+   3)  0 bits are needed to represent e as there is only one variable  and as it is a single stage it doesn’t need any bits
